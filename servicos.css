@@ -33,3 +33,47 @@ nav a {
   font-weight: bold;
   text-decoration: none;
 }
+
+.produtos {
+  width: 940px ;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30% ;
+    vertical-align: top;
+    background: #FFEFD5;
+    box-sizing: border-box;
+}
+
+.produtos h2{
+  color: #d80707;
+  font-size: 24px;
+  font-weight: bold ;
+}
+
+.preçoProduto {
+  color: red ;
+  font-size: 20px ;
+  font-weight: bold ;
+}
+
+.descricaoProduto {
+  color: #CD5C5C;
+  size: 18px;
+  }
+
+.observação {
+  color: gray;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.Promoção {
+  color: red ;
+  font-size: 20px ;
+  font-weight: bolder ;
+}
