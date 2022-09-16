@@ -1,13 +1,10 @@
-body {
-
-}
-
-#banner {
-	width:100%;
-}
-
 .principal{
-	background: #FFEFD5;
+  box-sizing: border-box;
+  border-color: #FFB6C1;
+  border-style: dotted;
+  border-width: medium;
+  padding: 30px;
+  margin: 25px;
 }
 
 
@@ -35,20 +32,27 @@ em strong {
 }
 
 .beneficios {
-	background: #FFEFD5;
+  box-sizing: border-box;
+  border-color: #FFB6C1;
+  border-style: dotted;
+  border-width: medium;
+  padding: 30px;
+  margin: 25px;
+  align-items: center ;
 }
 
-ul {
-	display: inline-block;
+.beneficios ul{
 	vertical-align: top;
 	width: 20%;
 	margin-right: 15%;
 	color: #d80707;
 	size : 22px ;
+  display: inline-block;
+
 }
 
 .imagembeneficios {
-	display: inline-table;
 	width: 25%;
 	height: 25%;
+  display: inline-grid;
 }

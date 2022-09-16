@@ -1,0 +1,95 @@
+/*Cabeçalho*/
+header {
+    background: url("background.png");
+    padding: 20px 0;
+    opacity: 65% ;
+
+}
+
+.caixaHeader {
+  position: relative;
+  width: 940px ;
+  margin: 0 auto;
+  border-bottom: 2px;
+  border-color: #DC143C;
+}
+
+#logoHeader {
+  width: 20% ;
+  border-radius: 30px 15px 50px 30px;
+  margin: 15px;
+  display: inline;
+}
+
+nav {
+  position: absolute;
+  top: 110px ;
+  right: 0;
+}
+
+nav li {
+  margin: 0 0 0 15px;
+  display: inline;
+}
+
+nav a {
+  color: #DC143C;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color : #CD5C5C;
+  text-shadow: hsl(360, 100%, 100%);
+}
+
+/*-----------------------*/
+/****MAIN****/
+
+main {
+  background-color: #FFE4E1;
+  padding: 50px;
+  background: url("background2.png");
+
+}
+
+.caixaMain {
+  width: 75%;
+  padding: 30px;
+  margin: 0 auto;
+
+}
+
+
+/*-----------------------*/
+/****RODAPÉ****/
+
+footer {
+    text-align: center;
+    background: url("background.png");
+    padding: 20px 0;
+    opacity: 65% ;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+#logoFooter {
+    width: 5% ;
+    opacity: 35% ;
+    border-radius: 30px 15px 50px 30px;
+    margin: 15px;
+}
+
+#logoFooter:hover {
+    width: 5% ;
+    opacity: 100%;
+    border-radius: 30px 15px 50px 30px;
+    margin: 15px;
+}
+
+/*-----------------------*/
