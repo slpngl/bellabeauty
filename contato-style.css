@@ -1,0 +1,61 @@
+.formularioContatos {
+  box-sizing: border-box;
+  border-color: #FFB6C1;
+  border-style: dotted;
+  border-width: medium;
+  padding: 30px;
+  margin: 25px;
+  background: url("background2.png");
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label , form legend {
+    display:block;
+    margin: 0 0 10px;
+    color: #CD5C5C;
+    font-size: 18px;
+}
+
+.input-padrao {
+    display: block;
+    padding-top: 20px;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.Enviar {
+  width: 40%
+  padding 20px;
+  background-color: pink;
+  color: orange;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  transition: 1s all;
+  cursor: pointer;
+
+}
+
+.Enviar:hover {
+  background-color: gray;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background-color: pink;
+  color: white;
+  font-weight: bold;
+}
+
+td , th {
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}

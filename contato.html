@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PAGINA LAYOUT </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="contato-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <header>
+      <div class="caixaHeader">
+
+      <h1><img id="logoHeader" src="BB.jpg" alt=""></h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          </ul>
+      </nav>
+    </div>
+    </header>
+
+
+    <main>
+      <div class="caixaMain">
+        <div class="formularioContatos">
+
+          <form>
+            <label for="nomeFormContato">Nome</label>
+            <input type="text" id="nomeFormContato" class="input-padrao" required><br>
+
+            <label for="emailFormContato">Email</label>
+            <input type="email" id="emailFormContato" class="input-padrao" required placeholder="seuemail@.com"><br>
+
+            <label for="telefoneFormContato">Telefone</label>
+            <input type="tel" id="telefoneFormContato" class="input-padrao" required placeholder="(xx)xxxxx-xxxx"><br>
+
+            <label for="mensagemFormContato">Mensagem</label>
+            <textarea type="text" id="mensagemFormContato" class="input-padrao"></textarea>
+            <br>
+
+            <fieldset>
+              <legend>Como prefere o nosso contato?</legend>
+
+              <label for="rdemailFormContato">
+                <input type="radio" name="opcaoFormContato" id="rdemailFormContato">
+                E-mail</label>
+
+              <label for="rdwhatsFormContato">
+              <input type="radio" name="opcaoFormContato" id="rdwhatsFormContato" checked>
+              Whatsapp</label>
+
+              <label for="rdtelFormContato">
+              <input type="radio" name="opcaoFormContato" id="rdtelFormContato">
+              Telefone</label>
+
+              <br>
+            </fieldset>
+
+            <fieldset>
+            <legend>Qual horário prefere o nosso contato?</legend>
+            <select class="" name="">
+              <option value="">Manhã</option>
+              <option value="">Tarde</option>
+              <option value="">Noite</option>
+
+            </select>
+          </fieldset>
+
+
+            <br>
+
+            <label type="checkbox" checked><input type="checkbox"> Gostaria de receber nossa newsletter?</label>
+
+            <input type="submit" value="Enviar!" class="Enviar"/>
+
+          </form>
+
+          <table>
+            <thead>
+              <tr>
+              <th>DIA</th>
+              <th>HORÁRIO</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th>Segunda</th>
+                <th>08 - 20h</th>
+              </tr>
+
+              <tr>
+                <td>Quarta</td>
+                <td>08 - 20h</td>
+              </tr>
+
+              <tr>
+                <td>Sexta</td>
+                <td>08 - 20h</td>
+              </tr>
+            </tbody>
+
+
+
+
+
+
+          </table>
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <img id="logoFooter" src="BB.jpg" alt="=)">
+      <p>Bella Beauty copyright</p>
+    </footer>
+
+  </body>
+</html>
