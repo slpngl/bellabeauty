@@ -2,6 +2,25 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
+
+
 /*Cabeçalho*/
 header {
     background: url("background.png");
@@ -61,6 +80,38 @@ main {
   width: 75%;
   padding: 30px;
   margin: 0 auto;
+}
+
+.principal{
+  box-sizing: border-box;
+  border-color: #FFB6C1;
+  border-style: dotted;
+  border-width: medium;
+  padding: 30px;
+  margin: 25px;
+  background: url("background2.png");
+
+}
+
+.titulo-principal {
+	text-align: center;
+	color: #CD5C5C;
+	font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.titulo-principal:before {
+  content: "🌸" ;
+}
+
+.titulo-principal:after {
+  content: "🌸" ;
+}
+
+p {
+	text-align: center;
+	color: #CD5C5C
 }
 
 

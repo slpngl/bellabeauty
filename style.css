@@ -1,27 +1,3 @@
-.principal{
-  box-sizing: border-box;
-  border-color: #FFB6C1;
-  border-style: dotted;
-  border-width: medium;
-  padding: 30px;
-  margin: 25px;
-  background: url("background2.png");
-
-}
-
-
-.titulo-principal {
-	text-align: center;
-	color: #CD5C5C;
-	font-size: 2em;
-  margin: 0 0 1em;
-  clear: left;
-}
-
-p {
-	text-align: center;
-	color: #CD5C5C
-}
 
 
 .bio {
@@ -49,29 +25,27 @@ em strong {
 }
 
 .beneficios {
-  box-sizing: border-box;
-  border-color: #FFB6C1;
-  border-style: dotted;
-  border-width: medium;
-  padding: 30px;
-  margin: 25px;
-  background: url("background2.png");
-
-
+  text-align: center;
 }
 
 .beneficios ul{
 	vertical-align: top;
-	width: 20%;
+	width: 40%;
 	margin-right: 15%;
 	color: #d80707;
 	size : 22px ;
   display: inline-block;
+  line-height: 1.5;
+}
 
+.beneficios li::before {
+  content: "🌟";
 }
 
 .imagembeneficios {
 	width: 25%;
 	height: 25%;
   display: inline-grid;
+  box-shadow: 10px 10px 10px 0 gray;
+
 }
